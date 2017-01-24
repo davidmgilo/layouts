@@ -27,6 +27,7 @@
             justify-content: center;
             align-items: center;
             border: 1px black solid;
+            height: 400px;
         }
 
     </style>
