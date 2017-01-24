@@ -15,11 +15,16 @@ body {
 	color: white;
 	text-align: center;
 }
+#bloc{
+	border: 1px black solid;
+	text-align: center;
+	max-width: 500px;
+}
 
 
 </style>
 
 <body>
-Hello world!
+<div id="bloc">Prova</div>
 </body>
 </html>
