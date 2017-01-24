@@ -16,10 +16,15 @@
 	
 .row, .col {
 	border: 1px black solid;
-	background: lightblue;
+	background: lightseagreen;
 	text-align: center;
+	margin: 10px;
+}
 
-}	
+.col {
+	background: lightgreen;
+	flex-grow: 1;
+}
 	
 </style>
 
