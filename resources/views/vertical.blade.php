@@ -14,11 +14,23 @@ body {
 	background: green;
 	color: white;
 	text-align: center;
+	display: flex;
+}
+#bloc {
+	border:1px solid black;
+	text-align: center;
+	max-width: 500px;
+	margin:0 auto;
 }
 
 </style>
 
 <body>
 Hello world!
+<div id="bloc">Prova</div>
+<div id="bloc">Prova</div>
+<div id="bloc">Prova</div>
+<div id="bloc">Prova</div>
+<div id="bloc">Prova</div>
 </body>
 </html>
