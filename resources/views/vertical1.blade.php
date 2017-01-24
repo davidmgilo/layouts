@@ -7,13 +7,7 @@
 
 @section('main-content')
 
-<style>
 
-.totalcentered {
-	border: 1px black solid;
-}
-
-</style>
 	<div class="totalcentered">
 		Hello world!!
 	</div>
