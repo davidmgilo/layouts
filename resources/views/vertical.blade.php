@@ -10,7 +10,7 @@
 
 <style>
 
-html {
+html,body {
 	height: 100%;
 }
 
@@ -20,7 +20,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	height: 100%;
 }
 #bloc {
 	border:1px solid black;
