@@ -15,19 +15,10 @@ body {
 	color: white;
 	text-align: center;
 }
-#bloc{
-	border: 1px black solid;
-	text-align: center;
-	max-width: 500px;
-	margin: 0 auto;
-	display: inline-block;
-}
-
 
 </style>
 
 <body>
-<div id="bloc">Prova</div>
-<div id="bloc">Prova</div>
+Hello world!
 </body>
 </html>
