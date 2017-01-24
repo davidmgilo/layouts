@@ -22,6 +22,8 @@ Route::group(['middleware' => 'auth'], function () {
 
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
+    Route::get('layoutflexbox', 'LayoutflexboxController@index')->name('layoutflexbox');
+
     Route::get('parrilla', 'ParrillaController@index')->name('parrilla');
 
     Route::get('vertical1', 'Vertical1Controller@index')->name('vertical1');

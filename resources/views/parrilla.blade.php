@@ -29,7 +29,7 @@
 .col:nth-child(2) {
 	flex: 1 1 50%;
 }
-	
+
 </style>
 
 <body>
