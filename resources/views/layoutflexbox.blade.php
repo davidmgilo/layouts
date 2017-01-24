@@ -12,10 +12,15 @@
 	
 .wrapper {
 	display: flex;
+	flex-flow: row wrap;
 }
 
 header, nav, section, aside, footer {
 	border: 1px black solid;
+}
+
+header {
+	flex: 1 100%;
 }
 	
 </style>
