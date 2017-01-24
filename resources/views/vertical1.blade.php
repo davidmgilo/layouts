@@ -7,8 +7,8 @@
 
 @section('main-content')
 
-	<div class="container">
-		Hello World 2 !!
+	<div class="contenidor">
+		<h1>Hello World 2 !!</h1>
 	</div>
 
 
