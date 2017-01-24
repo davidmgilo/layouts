@@ -9,5 +9,30 @@
 </head>
 <body>
 
+<div class="wrapper">
+	<header>HEADER HERE</header>
+	<nav>
+		<ul>
+			<li>Lorem.</li>
+			<li>Ea.</li>
+			<li>Aperiam.</li>
+			<li>Doloremque.</li>
+			<li>Facilis.</li>
+		</ul>
+	</nav>
+	<section class="content">
+		<header>Content header here</header>
+		<section>Subsecció 1</section>
+		<section>Subsecció 2</section>
+		<section>Subsecció 3</section>
+	</section>
+
+	<aside>
+		Aquí barra lateral
+	</aside>
+
+	<footer>Copyright bla bla bla</footer>
+</div>
+
 </body>
 </html>
