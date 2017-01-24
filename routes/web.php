@@ -22,4 +22,8 @@ Route::group(['middleware' => 'auth'], function () {
 
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
+    Route::get('vertical', 'VerticalController@index')->name('vertical');
+
+    Route::get('prova', 'ProvaController@index')->name('prova');
+
 });
