@@ -13,6 +13,7 @@
 body {
 	background: green;
 	color: white;
+	text-align: center;
 }
 
 
