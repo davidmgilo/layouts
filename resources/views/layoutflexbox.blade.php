@@ -41,19 +41,22 @@ nav, aside {
 
 @media all and (min-width: 600px) {
 	.content {
-		order: 1;
+		order: 3;
+		flex: 2;
 	}
 
 	header {
-		order: 2;
+		order: 1;
 	}
 
 	nav {
-		order: 3;
+		order: 2;
+		flex: 1 auto;
 	}
 
 	aside {
 		order: 4;
+		flex: 1 auto;
 	}
 
 	footer {
