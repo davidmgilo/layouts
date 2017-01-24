@@ -7,9 +7,9 @@
 
 @section('main-content')
 
-
-	<div class="totalcentered">
-		Hello world!!
+	<div class="container">
+		Hello World 2 !!
 	</div>
+
 
 @endsection

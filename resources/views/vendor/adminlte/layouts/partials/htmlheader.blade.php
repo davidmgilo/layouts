@@ -22,8 +22,8 @@
 
     <style>
 
-        .totalcentered {
-            border: 1px black solid;
+        .container {
+            display: flex;
         }
 
     </style>
