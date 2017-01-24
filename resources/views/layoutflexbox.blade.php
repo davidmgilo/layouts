@@ -39,7 +39,27 @@ nav, aside {
 	background: grey;
 }
 
-@media
+@media all and (min-width: 600px) {
+	.content {
+		order: 1;
+	}
+
+	header {
+		order: 2;
+	}
+
+	nav {
+		order: 3;
+	}
+
+	aside {
+		order: 4;
+	}
+
+	footer {
+		order: 5;
+	}
+}
 
 </style>
 
