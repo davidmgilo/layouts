@@ -7,6 +7,19 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 </head>
+
+<style>
+	
+.wrapper {
+	display: flex;
+}
+
+header, nav, section, aside, footer {
+	border: 1px black solid;
+}
+	
+</style>
+
 <body>
 
 <div class="wrapper">
