@@ -25,6 +25,14 @@
 	background: lightgreen;
 	flex-grow: 1;
 }
+
+.col:nth-child(2) {
+	flex-grow: 2;
+}
+
+.col:nth-child(4) {
+	flex-grow: 2;
+}
 	
 </style>
 
