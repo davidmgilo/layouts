@@ -21,8 +21,26 @@ header, nav, section, aside, footer {
 
 header {
 	flex: 1 100%;
+	background: yellowgreen;
 }
-	
+
+footer {
+	flex: 1 100%;
+	background: tomato;
+}
+
+nav, aside {
+	flex: 1 auto;
+	background: lightblue;
+}
+
+.content {
+	flex: 1 70%;
+	background: grey;
+}
+
+@media
+
 </style>
 
 <body>
@@ -39,10 +57,7 @@ header {
 		</ul>
 	</nav>
 	<section class="content">
-		<header>Content header here</header>
-		<section>Subsecció 1</section>
-		<section>Subsecció 2</section>
-		<section>Subsecció 3</section>
+		TODO
 	</section>
 
 	<aside>
