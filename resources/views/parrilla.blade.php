@@ -1,21 +1,53 @@
-@extends('adminlte::page')
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
 
-@section('htmlheader_title')
-	Change Title here!
-@endsection
+<style>
 
+.row {
+	display: flex;
+}
+	
+.row, .col {
+	border: 1px black solid;
+	background: lightblue;
+	text-align: center;
 
-@section('main-content')
-	<div class="container-fluid spark-screen">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="panel panel-default">
-					<div class="panel-heading">Change Header</div>
-					<div class="panel-body">
-						Change content here!
-					</div>
-				</div>
-			</div>
-		</div>
+}	
+	
+</style>
+
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col">1</div>
+		<div class="col">2</div>
+		<div class="col">3</div>
+		<div class="col">4</div>
+		<div class="col">5</div>
+		<div class="col">6</div>
 	</div>
-@endsection
+	<div class="row">
+		<div class="col">1</div>
+		<div class="col">2</div>
+		<div class="col">3</div>
+	</div>
+	<div class="row">
+		<div class="col">1</div>
+	</div>
+	<div class="row">
+		<div class="col">1</div>
+		<div class="col">2</div>
+	</div>
+
+</div>
+
+</body>
+</html>
