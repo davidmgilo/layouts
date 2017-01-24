@@ -12,6 +12,7 @@
 
 .row {
 	display: flex;
+	flex-wrap: wrap;
 }
 	
 .row, .col {
@@ -24,6 +25,8 @@
 .col {
 	background: lightgreen;
 	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 400px;
 }
 
 .col:nth-child(2) {
@@ -32,6 +35,10 @@
 
 .col:nth-child(4) {
 	flex-grow: 2;
+}
+
+.col:nth-child(5) {
+	flex-shrink: 2;
 }
 	
 </style>
