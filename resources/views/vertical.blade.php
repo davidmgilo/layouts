@@ -10,11 +10,17 @@
 
 <style>
 
+html {
+	height: 100%;
+}
+
 body {
 	background: green;
 	color: white;
 	justify-content: center;
+	align-items: center;
 	display: flex;
+	height: 100%;
 }
 #bloc {
 	border:1px solid black;
