@@ -13,7 +13,7 @@
 body {
 	background: green;
 	color: white;
-	text-align: center;
+	justify-content: center;
 	display: flex;
 }
 #bloc {
@@ -27,10 +27,5 @@ body {
 
 <body>
 Hello world!
-<div id="bloc">Prova</div>
-<div id="bloc">Prova</div>
-<div id="bloc">Prova</div>
-<div id="bloc">Prova</div>
-<div id="bloc">Prova</div>
 </body>
 </html>
