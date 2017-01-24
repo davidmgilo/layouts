@@ -23,19 +23,11 @@
 
 .col {
 	background: lightgreen;
-	flex: 1 1 400px;
+	flex: 1 1 20%;
 }
 
 .col:nth-child(2) {
-	flex-grow: 2;
-}
-
-.col:nth-child(4) {
-	flex-grow: 2;
-}
-
-.col:nth-child(5) {
-	flex-shrink: 2;
+	flex: 1 1 50%;
 }
 	
 </style>
