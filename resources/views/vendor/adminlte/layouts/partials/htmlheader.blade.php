@@ -24,6 +24,9 @@
 
         .container {
             display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px black solid;
         }
 
     </style>
